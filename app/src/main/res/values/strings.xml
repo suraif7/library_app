@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">loginsqllite</string>
+    <string name="book_details">Book Details</string>
+    <string name="book_title">Book Title</string>
+    <string name="author">Author</string>
+    <string name="isbn">ISBN</string>
+    <string name="create">Create</string>
+    <string name="read">Read</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="book_copy_details">\n</string>
+    <string name="availability">\n</string>
+    <string name="rack_number" />
+    <string name="book_id" />
+    <string name="save" />
+</resources>

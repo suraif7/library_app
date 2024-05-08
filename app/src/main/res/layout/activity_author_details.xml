@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s6">
+
+    <!-- Input fields for Book ID -->
+
+    <!-- Input fields for Author Name -->
+
+    <EditText
+        android:id="@+id/editTextBookId"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter Book ID"
+        android:inputType="text"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <!-- Buttons for CRUD operations -->
+    <EditText
+        android:id="@+id/editTextAuthorName"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextBookId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter Author Name"
+        android:inputType="text"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextAuthorName"
+        android:layout_marginStart="16dp"
+        android:text="Create"/>
+
+    <Button
+        android:id="@+id/buttonRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextAuthorName"
+        android:layout_toEndOf="@id/buttonCreate"
+        android:layout_marginStart="16dp"
+        android:text="Read"/>
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonCreate"
+        android:layout_marginStart="16dp"
+        android:text="Update"/>
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonCreate"
+        android:layout_toEndOf="@id/buttonUpdate"
+        android:layout_marginStart="16dp"
+        android:text="Delete"/>
+
+    <!-- Placeholder for showing typed texts -->
+    <TextView
+        android:id="@+id/textViewTypedTexts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonCreate"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="131dp"
+        android:textSize="18sp" />
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="button1" type="id" />
+    <item name="button2" type="id" />
+    <item name="button3" type="id" />
+    <item name="button4" type="id" />
+    <item name="button5" type="id" />
+    <item name="button6" type="id" />
+    <item name="button7" type="id" />
+    <item name="button_container" type="id" />
+    <item name="book_author_edit_text" type="id" />
+    <item name="book_title_edit_text" type="id" />
+    <item name="book_isbn_edit_text" type="id" />
+    <item name="create_button" type="id" />
+    <item name="read_button" type="id" />
+    <item name="update_button" type="id" />
+    <item name="delete_button" type="id" />
+    <item name="book_id_edit_text" type="id" />
+    <item name="save_button" type="id" />
+    <item name="rack_number_edit_text" type="id" />
+    <item name="availability_edit_text" type="id" />
+    <item name="button_view_option" type="id" />
+    <item name="scroll_view_layout" type="id" />
+    <item name="editTextBookId" type="id" />
+    <item name="editTextAuthorName" type="id" />
+    <item name="buttonCreate" type="id" />
+    <item name="buttonRead" type="id" />
+    <item name="buttonUpdate" type="id" />
+    <item name="buttonDelete" type="id" />
+    <item name="textViewTypedTexts" type="id" />
+    <item name="editTextCardNo" type="id" />
+    <item name="editTextDateOut" type="id" />
+    <item name="editTextDateDue" type="id" />
+    <item name="editTextDateReturned" type="id" />
+    <item name="buttonSave" type="id" />
+    <item name="editTextName" type="id" />
+    <item name="editTextAddress" type="id" />
+    <item name="editTextPhoneNumber" type="id" />
+    <item name="editTextUnpaidDueNumber" type="id" />
+    <item name="buttonMemberDetail" type="id" />
+</resources>
